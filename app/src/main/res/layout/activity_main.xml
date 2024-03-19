@@ -9,22 +9,22 @@
     >
 
     <com.example.vkwatchcustomview.CustomViewClock
-        android:layout_width="wrap_content"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
 
         app:hasSecondHand="false"
         app:numeralsType="roman" />
 
     <com.example.vkwatchcustomview.CustomViewClock
-        android:layout_width="100dp"
-        android:layout_height="150dp"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
 
         app:hasSecondHand="true"
         app:numeralsType="arabic"/>
 
     <com.example.vkwatchcustomview.CustomViewClock
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:layout_height="300dp"
 
         app:primaryColor="@color/white"
         app:secondaryColor="@color/blue"
