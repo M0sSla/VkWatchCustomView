@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomViewClock">
+        <attr name="hasSeconds" format="boolean" />
+        <attr name="dialColor" format="color" />
+        <attr name="mainColor" format="color" />
+        <attr name="secondHandColor" format="color" />
+        <attr name="numeralsType" format="enum">
+            <enum name="none" value="0" />
+            <enum name="arabic" value="1" />
+            <enum name="roman" value="2" />
+        </attr>
+    </declare-styleable>
+</resources>
